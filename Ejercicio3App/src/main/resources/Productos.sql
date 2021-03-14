@@ -1,4 +1,4 @@
-CREATE DATABASE Productos;
+-- CREATE DATABASE Productos;
 USE Productos;
 
 
@@ -33,7 +33,7 @@ DROP TABLE IF EXISTS `Cajeros`;
 
 CREATE TABLE `Cajeros` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `nomapels` varchar(100) NOT NULL,
+  `nomapels` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 ;
 
@@ -44,7 +44,7 @@ CREATE TABLE `Cajeros` (
 
 LOCK TABLES `Cajeros` WRITE;
 
-INSERT INTO `Cajeros` VALUES (1,'Jose Marín'),(2,'Oliver Ferrer'),(3,'Joan Tenaud'),(4,'Carles Lopez'),(5,'Thorsten Fey');
+INSERT INTO `Cajeros` VALUES (1,'Jose jose'),(2,'Oliver Ferrer'),(3,'Joan Tenaud'),(4,'Carles Lopez'),(5,'Thorsten Fey');
 
 UNLOCK TABLES;
 
